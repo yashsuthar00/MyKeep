@@ -1,9 +1,10 @@
 import React from 'react'
+import Pomodoro from '../components/Pomodoro'
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <Pomodoro />
         </div>
     )
 }
