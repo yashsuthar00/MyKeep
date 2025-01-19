@@ -16,17 +16,17 @@ cd myKeep
 
 ### Environment Variables
 
-    Before starting the servers, make sure to create a `.env` file in both the `backend` and `frontend` directories. Add the following environment variables:
+Before starting the servers, make sure to create a `.env` file in both the `backend` and `frontend` directories. Add the following environment variables:
 
-    For the backend:
-    ```
-    PORT=5000
-    ```
+For the backend:
+```
+PORT=5000
+```
 
-    For the frontend:
-    ```
-    PORT=5000
-    ```
+For the frontend:
+```
+PORT=3000
+```
 
 ### Setting Up the Backend
 
