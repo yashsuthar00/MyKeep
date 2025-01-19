@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Pomodoro.css';
 
 const Pomodoro = () => {
     const [time, setTime] = useState(1500); // 25 minutes in seconds
