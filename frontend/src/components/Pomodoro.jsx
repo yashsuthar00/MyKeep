@@ -24,6 +24,10 @@ const Pomodoro = () => {
         return () => clearInterval(intervalRef.current);
     }, [isActive, isPaused]);
 
+    useEffect(() => {
+        document.title = `pomodoro - ${formatTime(time)}`;
+    },[time]);
+
     const playAlarm = () => {
         const alarm = new Audio('/sound/bedside-clock-alarm-95792.mp3');
         alarm.play();
