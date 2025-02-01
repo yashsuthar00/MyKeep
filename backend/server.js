@@ -2,6 +2,9 @@ const express = require('express');
 const dotenv = require('dotenv').config();
 const cors = require('cors');
 const errorHandler = require('./middleware/errorHandler');
+const dbConnect = require('./config/dbConnection');
+
+dbConnect();
 
 const app = express();
 app.use(cors());
